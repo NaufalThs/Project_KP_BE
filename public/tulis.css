@@ -1,0 +1,285 @@
+.tulis-child {
+  align-self: stretch;
+  height: 737px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+}
+.pesan-baru {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.pesan-baru-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) var(--padding-8xs);
+}
+.kepada {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 58px;
+  white-space: nowrap;
+}
+.button-2450,
+.kepada-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.button-2450 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-200);
+  height: 26px;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
+  min-width: 250px;
+}
+.button-2450,
+.button-2455,
+.frame-child7 {
+  border-radius: var(--br-9xs);
+  max-width: 100%;
+}
+.button-2455 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame-child7 {
+  height: 576px;
+  width: 764px;
+  position: relative;
+  background-color: var(--color-white);
+  display: none;
+}
+.span {
+  color: var(--color-dimgray);
+}
+.create-new-project-container {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.rectangle-parent5 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-2xs) 547px var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro);
+  font-family: var(--font-inter);
+}
+.button-2457-child {
+  height: 26px;
+  width: 27px;
+  position: relative;
+  min-height: 26px;
+}
+.batal {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 34px;
+}
+.batal-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.button-2457,
+.e-add-icon3 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button-2457 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) var(--padding-sm);
+  background-color: var(--color-gainsboro);
+  width: 121px;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.e-add-icon3 {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.e-add-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.create-new-project3 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 34px;
+}
+.button-2456 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) 286px;
+  background-color: var(--color-gainsboro);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+.button-2456-wrapper,
+.button-2457-parent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.button-2456-wrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 417px;
+}
+.button-2457-parent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-7xs);
+}
+.tulis-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tulis,
+.tulis-inner,
+.tulis1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tulis1 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-6xs) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-epilogue);
+}
+.tulis {
+  width: 783px;
+  position: relative;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+@media screen and (max-width: 750px) {
+  .pesan-baru {
+    font-size: var(--font-size-7xl);
+    line-height: 18px;
+  }
+  .button-2455 {
+    display: none;
+  }
+}
+@media screen and (max-width: 675px) {
+  .rectangle-parent5 {
+    padding-top: var(--padding-xl);
+    padding-bottom: 356px;
+    box-sizing: border-box;
+  }
+  .button-2456-wrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pesan-baru {
+    font-size: var(--font-size-lgi);
+    line-height: 13px;
+  }
+  .button-2455 {
+    gap: var(--gap-13xl);
+  }
+  .button-2456 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
